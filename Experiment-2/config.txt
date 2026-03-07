@@ -1,0 +1,19 @@
+pwd
+ls
+whoami
+date
+uptime
+
+cd /home
+cd ~
+
+man ls
+man cd
+
+ls --help
+systemctl --help
+
+runlevel
+systemctl get-default
+
+clear
