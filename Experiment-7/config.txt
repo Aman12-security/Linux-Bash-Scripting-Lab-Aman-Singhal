@@ -1,0 +1,11 @@
+sudo useradd testuser
+sudo passwd testuser
+id testuser
+sudo groupadd testgroup
+sudo usermod -aG testgroup testuser
+groups testuser
+mkdir shared_dir
+sudo chgrp testgroup shared_dir
+sudo chmod 770 shared_dir
+sudo chmod +t shared_dir
+sudo chown testuser:testgroup shared_file.txt 
