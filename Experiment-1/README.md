@@ -15,8 +15,7 @@ Virtualization allows multiple operating systems to run on a single physical com
 
 An OVA (Open Virtual Appliance) file is a preconfigured virtual machine package that contains an operating system, installed tools, and system configurations. Importing an OVA file simplifies deployment compared to manual OS installation.
 
-## System Setup Screenshot
-![Topology](screenshots/topology.png)
+
 
 ## Procedure
 
