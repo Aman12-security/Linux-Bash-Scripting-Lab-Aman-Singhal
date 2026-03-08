@@ -32,7 +32,6 @@ Linux uses users (UID), groups, chown, chgrp, chmod and sticky bit for access co
 8. `sudo chown testuser:testgroup shared_file.txt` (if created)
 
 ## Configuration Commands
-```bash
 sudo useradd testuser
 sudo passwd testuser
 id testuser
@@ -55,6 +54,7 @@ Outcomes:
  ✓ Apply security best practices to prevent unauthorized access. 
  ✓ Interpret permission notations (symbolic and numeric modes). 
  ✓ Enforce access control policies in a multi-user environment. 
+ 
 Result: 
  ❖ Successfully created and managed multiple users and groups in a Linux system. Assigned 
     appropriate file ownership and group permissions to control access to system resources. 
