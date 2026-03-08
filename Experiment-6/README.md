@@ -28,7 +28,6 @@ Linux supports 6+ virtual terminals (Ctrl+Alt+F1 to F6). Display manager (gdm/li
 7. `ps -e | grep X`
 
 ## Configuration Commands
-```bash
 tty
 who
 systemctl status gdm
