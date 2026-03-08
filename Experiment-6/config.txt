@@ -1,0 +1,5 @@
+tty
+who
+systemctl status gdm
+echo $DISPLAY
+ps -e | grep X
