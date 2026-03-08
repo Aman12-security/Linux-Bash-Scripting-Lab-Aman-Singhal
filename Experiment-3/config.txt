@@ -1,0 +1,11 @@
+pwd
+ls
+ls -l
+mkdir linux_lab
+cd linux_lab
+touch file1.txt file2.txt
+nano file1.txt
+vi file2.txt
+cat file1.txt
+chmod 755 file1.txt
+stat file1.txt
