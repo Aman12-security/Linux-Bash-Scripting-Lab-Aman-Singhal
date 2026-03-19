@@ -32,7 +32,7 @@ Linux-Bash-Scripting-Lab/
   How to Use:
 
   1) Clone the repository:
-    . git clone https://github.com/YourUsername/Linux-Bash-Scripting-Lab.git
+    . https://github.com/Aman12-security/Linux-Bash-Scripting-Lab-Aman-Singhal.git
     . cd Linux-Bash-Scripting-Lab
 
   2) Open the folder for the experiment you want.
