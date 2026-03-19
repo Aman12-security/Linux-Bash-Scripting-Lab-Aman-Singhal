@@ -1,0 +1,21 @@
+A. Understanding Inodes
+  touch inode_test.txt
+  ls -i inode_test.txt
+  stat inode_test.txt
+
+B. Input / Output Redirection
+  ls > file_list.txt
+  date >> file_list.txt
+  wc -l < file_list.txt
+
+C. Using Pipes
+  ls -l | grep ".txt"
+  ls | grep ".txt" | wc -l
+
+D. Process Control Commands
+  ps
+  top
+  sleep 60 &
+  jobs
+  fg
+  kill <PID>
