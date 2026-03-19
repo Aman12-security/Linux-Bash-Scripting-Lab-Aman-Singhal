@@ -1,0 +1,25 @@
+A) Identifying Devices
+  lsblk
+  sudo fdisk -l
+  blkid
+
+B) Creating a Mount Point
+  sudo mkdir /mnt/usb
+
+C) Mounting a Device
+  sudo mount /dev/sdb1 /mnt/usb
+
+D) Verifying the Mount
+  df -h
+  mount
+
+E) Accessing the Mounted Device
+  cd /mnt/usb
+  ls
+
+F) Unmounting the Device
+  cd ~
+  sudo umount /mnt/usb
+
+G) Verifying Unmount
+  df -h
