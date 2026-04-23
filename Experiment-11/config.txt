@@ -1,0 +1,41 @@
+# Configuration for Experiment: Study of Linux Shells and Implementation of a Basic Bash Script Using Variables
+
+# Shell Types
+- sh: Original Bourne Shell
+- bash: Bourne Again Shell
+- ksh: Korn Shell
+- csh: C Shell
+- zsh: Z Shell
+
+# Essential Commands
+1. cat /etc/shells              # List available shells
+2. echo $SHELL                  # Display current shell
+3. sh                            # Switch to Bourne shell
+4. exit                          # Return to Bash
+5. nano simple.sh                # Create and edit a new script
+6. chmod +x simple.sh            # Make the script executable
+7. ./simple.sh                   # Execute the script
+
+# Step-by-Step Procedure
+## Identifying Different Shells
+- Step 1: Login and open Terminal.
+- Step 2: List available shells using `cat /etc/shells`.
+- Step 3: Check the current shell using `echo $SHELL`.
+
+## Switching Between Shells
+- Step 4: Switch to Bourne shell using `sh`.
+- Step 5: Return to Bash using `exit`.
+
+## Writing a Simple Bash Script
+- Step 6: Create a script using `nano simple.sh`.
+  - Add the following content:
+    ```bash
+    #!/bin/bash
+    echo "Hello, World!"
+    ```
+- Step 7: Make the script executable using `chmod +x simple.sh`.
+- Step 8: Execute the script using `./simple.sh`.
+
+# Notes
+- Ensure to run the script in the correct environment.
+- This configuration assumes you are working within a Linux-based system.
